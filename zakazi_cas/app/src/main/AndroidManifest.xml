@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proba_mpp.zakazi_cas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zakazi_cas">
+        <activity android:name=".Professor_Profile"></activity>
+        <activity android:name=".Student_Profile" />
+        <activity android:name=".Professor_Register" />
+        <activity android:name=".Professor_Login" />
+        <activity android:name=".Student_Register" />
+        <activity android:name=".Student_Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
